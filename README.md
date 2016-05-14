@@ -5,7 +5,7 @@ Home: http://cheeseshop.python.org/pypi/isodate
 
 Package license: BSD License
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: An ISO 8601 date/time/duration parser and formatter
 
@@ -69,9 +69,15 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/isodate-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/isodate-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/isodate-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/isodate-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/isodate-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/isodate-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/isodate/badges/version.svg)](https://anaconda.org/conda-forge/isodate)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/isodate/badges/downloads.svg)](https://anaconda.org/conda-forge/isodate)
 
 
 Updating isodate-feedstock
