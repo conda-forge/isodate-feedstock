@@ -1,10 +1,12 @@
+{% set version = "0.5.4" %}
+
 package:
   name: isodate
-  version: 0.5.4
+  version: {{ version }}
 
 source:
-  fn: isodate-0.5.4.tar.gz
-  url: https://pypi.io/packages/source/i/isodate/isodate-0.5.4.tar.gz
+  fn: isodate-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/i/isodate/isodate-{{ version }}.tar.gz
   sha256: 42105c41d037246dc1987e36d96f3752ffd5c0c24834dd12e4fdbe1e79544e31
 
 build:
