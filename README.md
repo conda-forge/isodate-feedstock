@@ -3,13 +3,25 @@ About isodate
 
 Home: http://cheeseshop.python.org/pypi/isodate
 
-Package license: BSD License
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: An ISO 8601 date/time/duration parser and formatter
+Summary: An ISO 8601 date/time/duration parser and formatter.
 
 
+
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/isodate-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/isodate-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/isodate-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/isodate-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/isodate-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/isodate-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/isodate/badges/version.svg)](https://anaconda.org/conda-forge/isodate)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/isodate/badges/downloads.svg)](https://anaconda.org/conda-forge/isodate)
 
 Installing isodate
 ==================
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `isodate` available on your platfo
 ```
 conda search isodate --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/isodate-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/isodate-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/isodate-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/isodate-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/isodate-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/isodate-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/isodate/badges/version.svg)](https://anaconda.org/conda-forge/isodate)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/isodate/badges/downloads.svg)](https://anaconda.org/conda-forge/isodate)
 
 
 Updating isodate-feedstock

@@ -1,33 +1,33 @@
 package:
-    name: isodate
-    version: 0.5.4
+  name: isodate
+  version: 0.5.4
 
 source:
-    fn: isodate-0.5.4.tar.gz
-    url: https://pypi.python.org/packages/source/i/isodate/isodate-0.5.4.tar.gz
-    md5: 9da3ea2af54a6261d854e73d2266030e
+  fn: isodate-0.5.4.tar.gz
+  url: https://pypi.io/packages/source/i/isodate/isodate-0.5.4.tar.gz
+  sha256: 42105c41d037246dc1987e36d96f3752ffd5c0c24834dd12e4fdbe1e79544e31
 
 build:
-    number: 0
-    script: python setup.py install --single-version-externally-managed  --record record.txt
+  number: 0
+  script: python setup.py install --single-version-externally-managed  --record record.txt
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
+  build:
+    - python
+    - setuptools
+  run:
+    - python
 
 test:
-    imports:
-        - isodate
-        - isodate.tests
+  imports:
+    - isodate
+    - isodate.tests
 
 about:
-    home: http://cheeseshop.python.org/pypi/isodate
-    license: BSD License
-    summary: An ISO 8601 date/time/duration parser and formatter
+  home: http://cheeseshop.python.org/pypi/isodate
+  license: BSD 3-Clause
+  summary: 'An ISO 8601 date/time/duration parser and formatter.'
 
 extra:
-    recipe-maintainers:
-        - ocefpaf
+  recipe-maintainers:
+    - ocefpaf
