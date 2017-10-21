@@ -9,6 +9,9 @@ Feedstock license: BSD 3-Clause
 
 Summary: An ISO 8601 date/time/duration parser and formatter.
 
+This module implements ISO 8601 date, time and duration parsing. The
+implementation follows ISO8601:2004 standard, and implements only date/time
+representations mentioned in the standard.
 
 
 Current build status
@@ -66,6 +69,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
