@@ -17,12 +17,15 @@ representations mentioned in the standard.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/isodate-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/isodate-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/isodate-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/isodate-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/isodate/badges/version.svg)](https://anaconda.org/conda-forge/isodate)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/isodate/badges/downloads.svg)](https://anaconda.org/conda-forge/isodate)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-isodate-green.svg)](https://anaconda.org/conda-forge/isodate) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/isodate.svg)](https://anaconda.org/conda-forge/isodate) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/isodate.svg)](https://anaconda.org/conda-forge/isodate) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/isodate.svg)](https://anaconda.org/conda-forge/isodate) |
 
 Installing isodate
 ==================
