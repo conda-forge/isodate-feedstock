@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 package:
   name: isodate
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/i/isodate/isodate-{{ version }}.tar.gz
-  sha256: 2e364a3d5759479cdb2d37cce6b9376ea504db2ff90252a2e5b7cc89cc9ff2d8
+  sha256: 48c5881de7e8b0a0d648cb024c8062dc84e7b840ed81e864c7614fd3c127bde9
 
 build:
-  number: 1
+  number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
@@ -30,7 +30,7 @@ test:
 about:
   home: http://cheeseshop.python.org/pypi/isodate
   license: BSD 3-Clause
-  summary: 'An ISO 8601 date/time/duration parser and formatter.'
+  summary: An ISO 8601 date/time/duration parser and formatter.
   description: |
     This module implements ISO 8601 date, time and duration parsing. The
     implementation follows ISO8601:2004 standard, and implements only date/time
