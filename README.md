@@ -1,9 +1,9 @@
 About isodate
 =============
 
-Home: http://cheeseshop.python.org/pypi/isodate
+Home: https://github.com/gweis/isodate/
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/isodate-feedstock/blob/master/LICENSE.txt)
 
