@@ -1,32 +1,31 @@
 {% set name = "isodate" %}
-{% set version = "0.6.1" %}
-
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/isodate-{{ version }}.tar.gz
-  sha256: 48c5881de7e8b0a0d648cb024c8062dc84e7b840ed81e864c7614fd3c127bde9
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/isodate-{{ version }}.tar.gz
+  sha256: c6332cf456314b85cc3b6ea2c45a6fa417cb1fddb361f6d2ed8f4f69e843c6d1
 
 build:
-  number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  number: 0
 
 requirements:
   host:
+    - python >=3.7
+    - setuptools
+    - setuptools-scm
     - pip
-    - python >=3.6
   run:
-    - python >=3.6
-    - six
+    - python >=3.7
 
 test:
   imports:
     - isodate
-    - isodate.tests
   commands:
     - pip check
   requires:
