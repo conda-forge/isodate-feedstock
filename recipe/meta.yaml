@@ -26,7 +26,6 @@ requirements:
 test:
   imports:
     - isodate
-    - isodate.tests
   commands:
     - pip check
   requires:
