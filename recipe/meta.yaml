@@ -1,5 +1,5 @@
 {% set name = "isodate" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/isodate-{{ version }}.tar.gz
-  sha256: c6332cf456314b85cc3b6ea2c45a6fa417cb1fddb361f6d2ed8f4f69e843c6d1
+  sha256: 4cd1aa0f43ca76f4a6c6c0292a85f40b35ec2e43e315b59f06e6d32171a953e6
 
 build:
   noarch: python
